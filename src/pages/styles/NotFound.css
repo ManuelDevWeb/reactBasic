@@ -1,0 +1,22 @@
+.NotFound__Container {
+    height: 90vh;
+    text-align: center;
+}
+
+.NotFound__Img {
+    margin: 0px auto;
+}
+
+.NotFound__Container .NotFound__Img img {
+    min-width: 350px;
+    max-width: 650px;
+}
+
+.NotFound__Container .NotFound__Img p {
+    font-size: 3rem;
+}
+
+.NotFound__Container .NotFound__Img span {
+    color: chartreuse;
+    font-weight: bold;
+}
