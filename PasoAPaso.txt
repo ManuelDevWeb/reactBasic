@@ -1,0 +1,53 @@
+1. Ejecutar: git clone --single-branch --branch 1.ReactDOM.render https://github.com/Sparragus/platzi-badges.git
+
+2. Ejecutar en la carpeta clonada: npx npm-check-updates -u
+
+3. Ejecutar en la carpeta clonada: npm install
+
+**React
+
+4. Crear la carpeta: src/components
+
+5. Crear el componente: src/components/Badge.js
+
+6. Crear la carpeta: src/components/styles
+
+7. Crear el archivo: src/components/styles/Badge.css
+
+8. Instalar bootstrap: npm install bootstrap
+
+9. Crear el archivo: src/components/styles/global.css
+
+10. Crear la carpeta: src/pages
+
+11. Crear el componente: src/pages/BadgeNew.js
+
+12. Crear el componente: src/components/Navbar.js
+
+13. Crear el archivo: src/components/styles/Navbar.css
+
+14. Crear la carpeta: src/pages/styles
+
+15. Crear el archivo: src/pages/styles/BadgeNew.css
+
+16. Crear el componente: src/components/BadgeForm.js
+
+17. Crear el componente: src/pages/Badges.js
+
+18. Crear el archivo: src/pages/styles/Badges.css
+
+19. Crear el componente: src/components/BadgesList.js
+
+**React Router
+
+20. Instalar React router: npm install react-router-dom 
+
+21. Crear el componente: src/components/App.js
+
+22. Crear el componente: src/components/Layout.js
+
+23. Crear el componente: src/pages/NotFound.js
+
+24. Crear el componente: src/pages/Home.js
+
+

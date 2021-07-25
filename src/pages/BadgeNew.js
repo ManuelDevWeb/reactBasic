@@ -17,7 +17,8 @@ const BadgeNew = () => {
         email: "",
         jobTitle: "",
         twitter: "",
-        gravatar: "https://s.gravatar.com/avatar/0d5b9b3d326178491c3be3500e652c3b?s=80",
+        gravatar:
+            "https://s.gravatar.com/avatar/0d5b9b3d326178491c3be3500e652c3b?s=80",
     });
 
     //Método que escucha cambios del input
@@ -39,7 +40,6 @@ const BadgeNew = () => {
             <div className="BadgeNew__hero">
                 <img className="img-fluid" src={imgHero} alt="Logo" />
             </div>
-
             <div className="container">
                 <div className="row">
                     <div className="col-6">

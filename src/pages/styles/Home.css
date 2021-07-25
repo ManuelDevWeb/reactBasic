@@ -1,0 +1,23 @@
+.Home__container {
+    /*width: 100%;*/
+    /*Altura que se adapta a la pantalla*/
+    min-height: calc(100vh - 60px);
+    background-color: #000000;
+    background-image: url(../../images/stars.svg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.colConf img {
+    min-height: 250px;
+    max-width: 330px;
+}
+
+.colAst img {
+    min-height: 250px;
+    max-width: 650px;
+}
+
+.vh-100 {
+    height: 90vh !important;
+}

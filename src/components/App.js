@@ -1,6 +1,6 @@
 import React from "react";
 //Importando Browser Router
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 //Importando componente badge
 import Badges from "../pages/Badges";
 //Importando componente badgenew
@@ -8,8 +8,9 @@ import BadgeNew from "../pages/BadgeNew";
 //Importando layout
 import Layout from "../components/Layout";
 //Importando NotFound
-import NotFound from "../pages/NotFound.js"
-
+import NotFound from "../pages/NotFound.js";
+//Importando Home
+import Home from "../pages/Home";
 
 //Creando componente
 const App = () => {
@@ -23,11 +24,13 @@ const App = () => {
                     {/*Rutas de nuestra App*/}
                     <Route exact path="/badges" component={Badges} />
                     <Route exact path="/badges/new" component={BadgeNew} />
+                    <Route path="/home" component={Home} />
+
                     <Route component={NotFound} />
                 </Switch>
             </Layout>
         </BrowserRouter>
-    )
+    );
 };
 
 //Exportando componente
